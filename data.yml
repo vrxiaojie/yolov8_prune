@@ -1,0 +1,12 @@
+names:
+  0: car
+  1: bus
+  2: person
+  3: truck
+  4: traffic sign
+  5: traffic light
+
+
+train: D:/yolov8_detect/yolov8/datasets/bdd100k-9000-1000/images/train # train images (relative to 'path') 4 images
+val: D:/yolov8_detect/yolov8/datasets/bdd100k-9000-1000/images/val # val images (relative to 'path') 4 images
+#test: datasets/M3FD_ir/test # test images (optional)
