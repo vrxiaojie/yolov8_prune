@@ -42,7 +42,7 @@ def step4_finetune():
     model.train(data=name_yaml, device="0", imgsz=640, epochs=50, batch=32, workers=0, save_period=1, name=path_fineturn)  # train the model
 
 # step1_train()
-step2_Constraint_train()
+# step2_Constraint_train()
 # step3_pruning()
-# step4_finetune()
+step4_finetune()
 
